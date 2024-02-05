@@ -2,40 +2,94 @@
 <html>
 <head>
     <title>Music Introduction</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      h1 {
+        text-align: center;
+        border-bottom: 5px solid gray;
+        text-decoration: none;
+        border-style: double;
+        margin: 0px;
+        font-style: oblique;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        
+      }
+      
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article{
+        padding-left: 95px;
+        border-bottom: 2px solid gray;
+      }
+      ul{
+        width:170px;
+        border-right: 5px solid gray;
+        padding: 40px;
+        margin: 0;
+        border-style: double;
+        
+      }
+      h3{
+        margin: 40px;
+      }
+      p{
+        margin:35px;
+      }
+    
+    </style>
 </head>
 <body>
-  <h1><a href="0.html">My Favorite New Age song</a></h1>
-  <h2>LIST</h2>
-  <ul>
-    <li><a href="1.htmi">캐논변주곡</a></li>
-    <li><a href="2.html">Kiss the rain</a></li>
-    <li><a href="3.html">May be</a></li>
-    <li><a href="4.html">소녀의 기도</a></li>
-    <li><a href="5.html">히로시의 회상</a></li>
-    <li><a href="6.html">베토벤 바이러스</a></li>
-    <li><a href="7.html">레미니센스(테일즈위버)</a></li>
-    <li><a href="8.html">변하지 않는 것</a></li>
-    <li><a href="9.html">언제나 몇번이라도</a></li>
-  </ul>
-
-  <h3>캐논변주곡</h3>
-  <p>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/1elGqARTb1Q?si=J6OA5_mtWhGKJ364" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  </p>
-  <p><a href="https://youtu.be/1elGqARTb1Q?si=N2_0jELqFnmitSPE">canon</a> is the first classical song i learned at piano school.<br>
-     maybe that's why i feel comfortable when i listen to Canon.<br>
-     Canon is easy to play because of its easy melody, but it's a difficult song<br>
-     I haven't played the piano in a long time, so I don't know if I can still play the canon,<br>
-     if i were able to play the piano again,<br>
-     i think i would probably play the Canon first.<br>
-  </p>
-  <p>
-    캐논은 내가 피아노 학원에서 배운 첫번째 클래식 곡입니다.<br>
-    그래서인지 캐논을 들으면 마음이 편해집니다.<br>
-    캐논은 멜로디가 쉬워 연주하기에도 쉬워보이지만 난이도가 있는 곡입니다<br>
-    오랫동안 피아노를 연주하지 않아서 아직도 캐논을 연주할 수 있을지 모르겠지만,<br>
-    피아노를 다시 연주할 수 있게 된다면 캐논을 제일 먼저 연주할 것 같아요.<br>
-  </p>
-  <img src="piano.canon">
+  <h1><a href="index.html">My Favorite New Age Song</a></h1>
+  <div id="grid">
+    <ul>
+      <li><a href="1.htmi">캐논변주곡</a></li>
+      <li><a href="2.html">Kiss the rain</a></li>
+      <li><a href="3.html">May be</a></li>
+      <li><a href="4.html">소녀의 기도</a></li>
+      <li><a href="5.html">히로시의 회상</a></li>
+      <li><a href="6.html">베토벤 바이러스</a></li>
+      <li><a href="7.html">레미니센스(테일즈위버)</a></li>
+      <li><a href="8.html">변하지 않는 것</a></li>
+      <li><a href="9.html">언제나 몇번이라도</a></li>
+    </ul>
+    <div id="article">
+      <h3>캐논변주곡</h3>
+      <p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/1elGqARTb1Q?si=J6OA5_mtWhGKJ364" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </p>
+      <p><a href="https://youtu.be/1elGqARTb1Q?si=N2_0jELqFnmitSPE">canon</a> is the first classical song i learned at piano school.<br>
+        한 성부가 주제를 시작한 뒤 다른 성부에서 그 주제를 똑같이 모방하면서 화성진행을 맞추어 나가는 대위적인 서양 고전음악 악곡의 한 형식.<br>
+        가장 간단하면서 친숙한 예로 〈동네 한 바퀴〉와 같은 돌림노래가 있다.<br>
+        캐논이라고 불리기도 한다. 위 형식으로 된 서양 고전음악 악곡 중에서는 《캐논》이라고 불리는 것이 있다.<br>
+        하지만 그중 가장 유명한 것은 단연 요한 파헬벨(Johan Pachelbel)의 캐논 라장조.<br>
+        사실 이 카논 자체도 파헬벨 사후 대중들에게 오랫동안 잊혀지게 되었다.<br>
+        지금의 유명세를 생각해 보면 의외이겠지만, 이는 바로크 시대 음악들이 공통적으로 맞이했던 운명으로 심지어 바흐와 헨델의 곡들 역시 그러하였다.<br>
+        파헬벨의 카논이 다시 알려지게 된 것은 20세기에 들어서였다. 게다가 지금과 같은 유명세를 바로 얻게 되기까지의 과정 역시 짧지 않았다.<br>
+        악보가 재출판된 것은 1919년 구스타프 베크만(Gustav Beckmann)에 의한 것이었고[14] 재출판 후 초연은 그로부터 또 한참 후인 1940년에 이루어졌다.<br>
+        그 후로도 몇몇 연주들이 더 있었지만 이 곡을 유명하게 만든 것은 1968년 장프랑수아 파야르의 챔버 오케스트라 연주가 있고 나서였는데[15],<br>
+        1970년 샌프란시스코의 한 클래식 음악 전문 라디오 채널에서 이 연주의 녹음을 틀어주었고 그 후 청취자들이 이 곡을 신청곡으로 올리는 요청이 쇄도했다고 전해진다.<br>
+        당시 이 반향은 캘리포니아 한정이었다고 하지만 곧 1976년과 1977년 캐논의 다른 연주들이 미국 전역의 클래식 부문을 석권하는 기염을 토한다.<br>
+        [16] 1980년 영화 보통 사람들과 그 유명한 칼 세이건의 코스모스에 삽입되어 클래식 애호가들을 넘어 더많은 일반 대중들에게도 알려져 마침내 작곡된 지 거의 300년 만에 폭발적인 인기를 얻게 된다.<br>
+        얼마 후인 1982년 후술할 조지 윈스턴의 바리에이션이 발표되고 큰 인기를 얻는 등 클래식 외의 음악계에도 지금과 같은 막대한 영향력을 행사하기에 이르게 된다.<br>
+         maybe that's why i feel comfortable when i listen to Canon.<br>
+         Canon is easy to play because of its easy melody, but it's a difficult song<br>
+         I haven't played the piano in a long time, so I don't know if I can still play the canon,<br>
+         if i were able to play the piano again,<br>
+         i think i would probably play the Canon first.<br>
+      </p>
+      <p>
+        캐논은 내가 피아노 학원에서 배운 첫번째 클래식 곡입니다.<br>
+        오랫동안 피아노를 연주하지 않아서 아직도 캐논을 연주할 수 있을지 모르겠지만,<br>
+        피아노를 다시 연주할 수 있게 된다면 캐논을 제일 먼저 연주할 것 같아요.<br>
+      </p>
+    </div>
+  </div>
 </body>
 </html>

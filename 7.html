@@ -2,10 +2,49 @@
 <html>
 <head>
     <title>Music Introduction</title>
+    <style>
+      body{
+        margin: 0;
+      }
+      h1 {
+        text-align: center;
+        border-bottom: 5px solid gray;
+        text-decoration: none;
+        border-style: double;
+        margin: 0px;
+        font-style: oblique;
+      }
+      a{
+        text-decoration: none;
+        color: black;
+        
+      }
+      #grid{
+        display: grid;
+        grid-template-columns: 150px 1fr;
+      }
+      #article{
+        padding-left: 95px;
+        border-bottom: 2px solid gray;
+      }
+      ul{
+        width:170px;
+        border-right: 5px solid gray;
+        padding: 40px;
+        margin: 0;
+        border-style: double;
+      }
+      h3{
+        margin: 40px;
+      }
+      p{
+        margin:35px;
+      }
+    </style>
 </head>
 <body>
-    <h1><a href="0.html">My Favorite New Age song</a></h1>
-  <h2>LIST</h2>
+  <h1><a href="index.html">My Favorite New Age Song</a></h1>
+  <div id="grid">
   <ul>
     <li><a href="1.html">캐논변주곡</a></li>
     <li><a href="2.html">Kiss the rain</a></li>
@@ -17,16 +56,19 @@
     <li><a href="8.html">변하지 않는 것</a></li>
     <li><a href="9.html">언제나 몇번이라도</a></li>
   </ul>
-
-  <h3><a href="https://youtu.be/Z-Q72YA3DFg?si=H2Fmd04sSb-Z4rhk">레미니센스(테일즈위버)</a></h3>
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/QdfcrCxQFfU?si=KSkE3mwesKDp_IuC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-  <p>
-    이번에 소개해드릴 곡은 게임 테일즈위버의 OST곡인 Reminiscence(레미니센스)라는 곡입니다.<br>
-    작곡가는 남구민이라는 분이고 게임 내에서 노래하는 숲,<br>
-    바람의 숲에서 밤 시간에 들을 수 있는 잔잔한 배경음악으로 많은 플레이어들에게 극찬받은 인기곡입니다.<br>
-    테일즈위버를 해보지 않은 사람들도 이 곡을 들려주면 들어봤다고 할 정도인데요,<br>
-    게임 내에서는 비가 오면 빗소리와 어우러져 더욱 듣기 좋습니다. 
-  </p>
- 
+  <div id="article">
+    <h3><a href="https://youtu.be/Z-Q72YA3DFg?si=H2Fmd04sSb-Z4rhk">레미니센스(테일즈위버)</a></h3>
+    <p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/QdfcrCxQFfU?si=KSkE3mwesKDp_IuC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    </p>
+    <p>
+      이번에 소개해드릴 곡은 게임 테일즈위버의 OST곡인 Reminiscence(레미니센스)라는 곡입니다.<br>
+      작곡가는 남구민이라는 분이고 게임 내에서 노래하는 숲,<br>
+      바람의 숲에서 밤 시간에 들을 수 있는 잔잔한 배경음악으로 많은 플레이어들에게 극찬받은 인기곡입니다.<br>
+      테일즈위버를 해보지 않은 사람들도 이 곡을 들려주면 들어봤다고 할 정도인데요,<br>
+      게임 내에서는 비가 오면 빗소리와 어우러져 더욱 듣기 좋습니다. 
+    </p>
+    </div>
+  </div>
 </body>
 </html>
